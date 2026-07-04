@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  
+  <!-- SEO Meta Tags -->
+  <title>ShopNexa Technologies | Mobile & Web Development Company</title>
+  <meta name="description" content="ShopNexa Technologies builds modern mobile applications, web applications, SaaS products, and custom software solutions for startups, businesses, and enterprises.">
+  <meta name="keywords" content="ShopNexa Technologies, ShopNexa, Mobile App Development, Web Development, SaaS Platform, UI/UX Design, Flutter, React, Next.js, Node.js, Custom Software">
+  <meta name="author" content="ShopNexa Technologies">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.shopnexa.com/">
+  <meta property="og:title" content="ShopNexa Technologies | Mobile & Web Development Company">
+  <meta property="og:description" content="ShopNexa Technologies builds modern mobile applications, web applications, SaaS products, and custom software solutions for startups, businesses, and enterprises.">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.shopnexa.com/">
+  <meta property="twitter:title" content="ShopNexa Technologies | Mobile & Web Development Company">
+  <meta property="twitter:description" content="ShopNexa Technologies builds modern mobile applications, web applications, SaaS products, and custom software solutions for startups, businesses, and enterprises.">
+  <meta property="twitter:image" content="assets/images/logo.png">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#2563EB">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="ShopNexa Technologies">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Organization Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SHOPNEXA TECHNOLOGIES ( PRIVATE ) LIMITED",
+      "alternateName": "ShopNexa Technologies",
+      "duns": "850408831",
+      "taxID": "CRO Islamabad",
+      "url": "https://www.shopnexa.com",
+      "logo": "https://www.shopnexa.com/assets/images/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "",
+        "contactType": "customer service",
+        "email": "hello@shopnexa.com",
+        "availableLanguage": ["en"]
+      },
+      "sameAs": [
+        "https://twitter.com/shopnexa",
+        "https://www.linkedin.com/company/shopnexa"
+      ]
+    }
+  </script>
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen">
+    <div class="logo-container">
+      <div class="glow-ring"></div>
+      <div class="logo-inner">
+        <!-- Stylized Hexagon with 'S' inside for ShopNexa -->
+        <svg viewBox="0 0 100 100" width="60" height="60">
+          <polygon points="50,15 80,32 80,68 50,85 20,68 20,32" fill="none" stroke="#ffffff" stroke-width="6"/>
+          <!-- Stylized S shape -->
+          <path d="M 65 35 C 65 25, 35 25, 35 38 C 35 50, 65 48, 65 60 C 65 72, 35 72, 35 63" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+    <h1 class="brand-name">SHOPNEXA</h1>
+    <p class="tagline">Building Modern Mobile & Web Solutions</p>
+    <div class="loader-bar">
+      <div class="loader-progress"></div>
+    </div>
+  </div>
+
+  <style>
+    body {
+      background-color: #0F172A;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+    #splash-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(circle at center, #1E1B4B 0%, #0F172A 100%);
+      z-index: 99999;
+      transition: opacity 0.5s ease-out;
+    }
+    .logo-container {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .glow-ring {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #2563EB, #7C3AED);
+      animation: rotate 3s linear infinite;
+      box-shadow: 0 0 30px rgba(124, 58, 237, 0.4);
+    }
+    .logo-inner {
+      position: absolute;
+      width: 90%;
+      height: 90%;
+      background-color: #0F172A;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .brand-name {
+      color: #ffffff;
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      margin: 0 0 8px 0;
+      font-family: 'Outfit', 'Inter', sans-serif;
+    }
+    .tagline {
+      color: #38BDF8;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 0 0 36px 0;
+    }
+    .loader-bar {
+      width: 180px;
+      height: 4px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .loader-progress {
+      width: 40%;
+      height: 100%;
+      background: linear-gradient(90deg, #2563EB, #06B6D4);
+      border-radius: 2px;
+      animation: loading 1.8s ease-in-out infinite;
+    }
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes loading {
+      0% { transform: translateX(-100%); }
+      50% { transform: translateX(150%); }
+      100% { transform: translateX(250%); }
+    }
+  </style>
+
+  <script>
+    // MutationObserver to fade out and remove splash screen once Flutter canvas is ready
+    const observer = new MutationObserver((mutations, obs) => {
+      const glassPane = document.querySelector('flt-glass-pane');
+      if (glassPane) {
+        const splash = document.getElementById('splash-screen');
+        if (splash) {
+          splash.style.opacity = 0;
+          setTimeout(() => splash.remove(), 500);
+        }
+        obs.disconnect();
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
